@@ -39,4 +39,5 @@ var isValidFileExtension = FileExtensionValidator.IsValidFileExtension(fileName,
 - [Sharon Tseng (曾佩萱)](mailto:sharon_tseng@gss.com.tw)
 - [Rainmaker Ho(亂馬客)](mailto:rainmaker_ho@gss.com.tw)
 
-
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
