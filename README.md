@@ -39,5 +39,4 @@ var isValidFileExtension = FileExtensionValidator.IsValidFileExtension(fileName,
 - [Sharon Tseng (曾佩萱)](mailto:sharon_tseng@gss.com.tw)
 - [Rainmaker Ho(亂馬客)](mailto:rainmaker_ho@gss.com.tw)
 
-## License
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
