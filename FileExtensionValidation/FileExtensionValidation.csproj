@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net45</TargetFramework>
+    <Version>1.0.0.1</Version>
+    <PackageProjectUrl>https://github.com/rainmakerho/FileExtensionValidation</PackageProjectUrl>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>FileExtensionValidation.snk</AssemblyOriginatorKeyFile>
+    <Company>gss.com.tw</Company>
   </PropertyGroup>
 
   <ItemGroup>

@@ -10,7 +10,9 @@
 |FileExtensionValidation.Test|FileExtensionValidation的測試程式，測試檔案會放置在Files目錄之中|.NET 4.5|
 
 ## 使用方式
+
 ### 傳入 File ByteArrays
+
 ```csharp
 var fileName = "1.jpg";
 var filePath = Path.Combine(_folderPath, fileName);
@@ -20,6 +22,7 @@ var isValidFileExtension = FileExtensionValidator.IsValidFileExtension(fileName,
 ```
 
 ### 傳入 FileStream
+
 ```csharp
 var fileName = "1.jpg";
 var filePath = Path.Combine(_folderPath, fileName);
@@ -27,6 +30,8 @@ var fs = File.OpenRead(filePath);
 var isValidFileExtension = FileExtensionValidator.IsValidFileExtension(fileName, fs, null);
 //isValidFileExtension: true 表示通過，false 表示內容與附檔名不符
 ```
+
+>註:如果不在驗證的檔案清單中，預設會回傳 False 哦!
 
 ## 參考資料
 [List of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures)
