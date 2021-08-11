@@ -6,8 +6,8 @@
 ## 專案說明
 |專案|說明|.NET版本|
 |---|---|---|
-|FileExtensionValidation| fileSignature 變數記錄附檔名及檔案的 Signatures(包含Offset), IsValidFileExtension Method提供驗證檔案內容是否與附檔名相同。|.NET 4.5|
-|FileExtensionValidation.Test|FileExtensionValidation的測試程式，測試檔案會放置在Files目錄之中|.NET 4.5|
+|FileExtensionValidation| fileSignature 變數記錄附檔名及檔案的 Signatures(包含Offset), IsValidFileExtension Method提供驗證檔案內容是否與附檔名相同。|.NET Standard 2.0|
+|FileExtensionValidation.Test|FileExtensionValidation的測試程式，測試檔案會放置在Files目錄之中|.NET 4.6.2|
 
 ## 使用方式
 

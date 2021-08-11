@@ -1,16 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net45</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
     <Version>1.0.0.1</Version>
     <PackageProjectUrl>https://github.com/rainmakerho/FileExtensionValidation</PackageProjectUrl>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>FileExtensionValidation.snk</AssemblyOriginatorKeyFile>
     <Company>gss.com.tw</Company>
+    <Description>讀取檔案中的 signatures(magic numbers or Magic Bytes) 來跟附檔名比較是否符合</Description>
+    <Authors>rainmaker_ho@gss.com.tw</Authors>
+    <PackageIcon>655_Hi.png</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="655_Hi.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
