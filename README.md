@@ -17,6 +17,8 @@ FileExtensionValidation is available on NuGet, so can be installed via the Packa
 Install-Package FileExtensionValidation
 ```
 
+## Release Note
+1. 2025/07/09 [修正 PNG 的檢查](https://github.com/rainmakerho/FileExtensionValidation/pull/2) v1.0.0.2
 
 ## 使用方式
 
